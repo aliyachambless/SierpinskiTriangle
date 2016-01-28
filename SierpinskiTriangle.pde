@@ -2,7 +2,7 @@ int sideLength = 10;
 
 public void setup()
 {
-	size(1000,1000);
+	size(1000,650);
 	background(0);
 }
 public void draw()
@@ -12,19 +12,19 @@ public void draw()
 }
 public void mouseDragged()//optional
 {
-	if(mouseY < 125)
+	if(mouseY < 81)
 		sideLength = 600;
-	else if(mouseY < 250)
+	else if(mouseY < 163)
 		sideLength = 300;
-	else if(mouseY < 375)
+	else if(mouseY < 244)
 		sideLength = 150;
-	else if(mouseY < 550)
+	else if(mouseY < 325)
 		sideLength = 75;
-	else if(mouseY < 675)
+	else if(mouseY < 406)
 		sideLength = 37;
-	else if(mouseY < 800)
+	else if(mouseY < 489)
 		sideLength = 16;
-	else if(mouseY < 925)
+	else if(mouseY < 568)
 		sideLength = 10;
 	else 
 		sideLength = 5;
